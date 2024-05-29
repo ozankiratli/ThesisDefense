@@ -1,0 +1,1948 @@
+---
+title: "The effects of migration on evolutionary dynamics in natural populations of *Drosophila melanogaster*"
+author: "Ozan Kiratli"
+subject: "Thesis Defense"
+date: "Advisor: Paul Schmidt"
+format: 
+   revealjs: 
+      theme: evo
+      auto-animate: true
+      transition: fade
+      
+width: 1280
+#editor: visual
+incremental: true
+#auto-animate: true
+auto-animate-duration: 2
+auto-play-media: true
+toc: true
+toccolor: "white"
+toc-depth: 1
+toc-title: "In a Nutshell"
+slide-number: c/t
+chalkboard: true
+progress: true
+history: false
+#scrollable: true
+navigation-mode: linear
+hide-inactive-cursor: true
+max-scale: 2
+min-scale: 0.1
+---
+
+```{=html}
+<style type="text/css">
+.reveal .slides section .fragment {
+   transition-duration: 2s;
+</style>
+```
+
+# Evolution 101 & Introduction
+
+------------------------------------------------------------------------
+
+## Evolution 101
+
+::: r-fit-text
+-   Evolutionary Forces
+    -   Selection, Drift, Mutations, Gene Flow
+-   Basis for Adaptation
+-   Rapid Adaptation 
+-   Epistasis
+:::
+
+------------------------------------------------------------------------
+
+## Evolutionary forces {auto-animate="true"}
+
+::: incremental
+![](Figures/Introduction/AllelePool-Large.png){.absolute bottom="50" left="200" width="821" height="535"}
+:::
+
+------------------------------------------------------------------------
+
+## Evolutionary forces: Drift {auto-animate="true"}
+
+:::{.fragment}
+![](Figures/Introduction/drift-text.png){.absolute bottom="150" left="1000" width="88" height="26"}
+![](Figures/Introduction/Drift.png){.absolute bottom="50" left="830" width="200" height="200"}
+:::
+::: {.fragment }
+![](Figures/Introduction/Drift1.png){.absolute bottom="50" left="830" width="200" height="200"}
+:::
+::: {}
+![](Figures/Introduction/AllelePool-Large.png){.absolute bottom="50" left="250" width="684" height="446"}
+:::
+
+------------------------------------------------------------------------
+
+## Evolutionary forces: Selection  {auto-animate="true"}
+
+::: {.fragment fragment-index="1"}
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="120" width="930" height="706"}
+:::
+::: {.fragment fragment-index="2"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="150" left="30" width="163" height="26"}
+![](Figures/Introduction/Selection.png){.absolute bottom="50" left="155" width="200" height="200"}
+:::
+::: {.fragment fragment-index="3"}
+![](Figures/Introduction/Selection1.png){.absolute bottom="50" left="155" width="200" height="200"}
+:::
+![](Figures/Introduction/Drift1.png){.absolute bottom="50" left="830" width="200" height="200"} 
+![](Figures/Introduction/AllelePool-Large.png){.absolute bottom="50" left="250" width="684" height="446"}
+![](Figures/Introduction/drift-text.png){.absolute bottom="150" left="1000" width="88" height="26"}
+
+------------------------------------------------------------------------
+
+## Evolutionary forces: Selection - Local adaptation {auto-animate="true"}
+
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="120" width="930" height="706"} 
+![](Figures/Introduction/Selection1.png){.absolute bottom="50" left="155" width="200" height="200"}
+![](Figures/Introduction/Selection2.png){.absolute bottom="50" left="155" width="200" height="200"}
+![](Figures/Introduction/Drift1.png){.absolute bottom="50" left="830" width="200" height="200"} 
+![](Figures/Introduction/Drift2.png){.absolute bottom="50" left="830" width="200" height="200"} 
+![](Figures/Introduction/AllelePool-Large.png){.absolute bottom="50" left="250" width="684" height="446"}
+![](Figures/Introduction/AllelePool-Large-AfterSelection.png){.absolute bottom="50" left="250" width="684" height="446"}
+![](Figures/Introduction/drift-text.png){.absolute bottom="150" left="1000" width="88" height="26"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="150" left="30" width="163" height="26"}
+
+------------------------------------------------------------------------
+
+## Evolutionary forces: Mutations  {auto-animate="true"}
+
+:::{}
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="182" width="631" height="479"}
+:::
+::: fragment
+![](Figures/Introduction/mutations-text.png){.absolute bottom="400" left="100" width="184" height="26"}
+![](Figures/Introduction/Mutations.png){.absolute bottom="300" left="250" width="184" height="302"}
+:::
+:::{}
+![](Figures/Introduction/Selection2.png){.absolute bottom="0" left="215" width="110" height="110"} ![](Figures/Introduction/Drift2.png){.absolute bottom="0" left="667" width="110" height="110"}
+![](Figures/Introduction/AllelePool-Large-AfterSelection.png){.absolute bottom="0" left="250" width="492" height="321"}
+![](Figures/Introduction/drift-text.png){.absolute bottom="110" left="720" width="88" height="26"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="110" left="110" width="163" height="26"}
+:::
+
+------------------------------------------------------------------------
+
+## Evolutionary forces: Gene flow  {auto-animate="true"}
+
+:::{}
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="82" width="631" height="479"}
+![](Figures/Introduction/Mutations.png){.absolute bottom="300" left="150" width="184" height="302"} ![](Figures/Introduction/Selection2.png){.absolute bottom="0" left="115" width="110" height="110"} ![](Figures/Introduction/Drift2.png){.absolute bottom="0" left="567" width="110" height="110"} ![](Figures/Introduction/AllelePool-Large-AfterSelection.png){.absolute bottom="0" left="150" width="492" height="321"}
+![](Figures/Introduction/drift-text.png){.absolute bottom="110" left="620" width="88" height="26"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="110" left="10" width="163" height="26"}
+![](Figures/Introduction/mutations-text.png){.absolute bottom="400" left="00" width="184" height="26"}
+:::
+::: {.fragment fragment-index=2}
+![](Figures/Introduction/HabitatSmall.png){.absolute bottom="-35" left="780" width="462" height="333"}
+:::
+::: {.fragment fragment-index=1}
+![](Figures/Introduction/AllelePool-Small.png){.absolute bottom="0" left="840" width="334" height="234"}
+:::
+::: {.fragment fragment-index=3}
+![](Figures/Introduction/geneflow-text.png){.absolute bottom="400" left="780" width="176" height="26"}
+![](Figures/Introduction/GeneFlow.png){.absolute bottom="200" left="550" width="360" height="262" }
+:::
+::: {.fragment fragment-index=4}
+![](Figures/Introduction/GeneFlow1.png){.absolute bottom="200" left="550" width="360" height="262" }
+:::
+
+
+------------------------------------------------------------------------
+
+## Adaptive Consequences of Gene Flow {auto-animate="true"}
+
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="82" width="631" height="479"}
+![](Figures/Introduction/Mutations.png){.absolute bottom="300" left="150" width="184" height="302"} 
+![](Figures/Introduction/Selection2.png){.absolute bottom="0" left="115" width="110" height="110"} 
+![](Figures/Introduction/Drift2.png){.absolute bottom="0" left="567" width="110" height="110"} 
+![](Figures/Introduction/AllelePool-Large-AfterSelection.png){.absolute bottom="0" left="150" width="492" height="321"}
+![](Figures/Introduction/AllelePool-Large.png){.fragment .absolute bottom="0" left="150" width="492" height="321"}
+![](Figures/Introduction/HabitatSmall.png){.absolute bottom="-35" left="780" width="462" height="333"}
+![](Figures/Introduction/AllelePool-Small.png){.absolute bottom="0" left="840" width="334" height="234"}
+![](Figures/Introduction/GeneFlow1.png){.absolute bottom="200" left="550" width="360" height="262" }
+![](Figures/Introduction/drift-text.png){.absolute bottom="110" left="620" width="88" height="26"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="110" left="10" width="163" height="26"}
+![](Figures/Introduction/mutations-text.png){.absolute bottom="400" left="00" width="184" height="26"}
+![](Figures/Introduction/geneflow-text.png){.absolute bottom="400" left="780" width="176" height="26"}
+
+------------------------------------------------------------------------
+
+## Assumptions of the current theory
+
+- Evolution is slow and it cannot keep up with ecological changes.
+- Evolutionary and ecological timescales are separate.
+
+------------------------------------------------------------------------
+
+## Rapidly and dynamically changing environments
+
+![](Figures/Introduction/ClimateChange.gif)
+
+
+------------------------------------------------------------------------
+
+## Revisiting Gene flow - Changing environments {auto-animate="true"}
+
+::: {}
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="82" width="631" height="479"}
+![](Figures/Introduction/HabitatSmall.png){.absolute bottom="-35" left="780" width="462" height="333"}
+:::
+::: fragment
+![](Figures/Introduction/HabitatSmall.png){.absolute bottom="-50" left="82" width="631" height="479"}
+![](Figures/Introduction/HabitatNew.png){.absolute bottom="-35" left="780" width="462" height="333"}
+:::
+:::{}
+![](Figures/Introduction/Mutations.png){.absolute bottom="300" left="150" width="184" height="302"} ![](Figures/Introduction/Selection2.png){.absolute bottom="0" left="115" width="110" height="110"} ![](Figures/Introduction/Drift2.png){.absolute bottom="0" left="567" width="110" height="110"} ![](Figures/Introduction/AllelePool-Large-AfterSelection.png){.absolute bottom="0" left="150" width="492" height="321"}
+![](Figures/Introduction/AllelePool-Small.png){.absolute bottom="0" left="840" width="334" height="234"}
+![](Figures/Introduction/GeneFlow1.png){.absolute bottom="200" left="550" width="360" height="262" }
+![](Figures/Introduction/drift-text.png){.absolute bottom="110" left="620" width="88" height="26"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="110" left="10" width="163" height="26"}
+![](Figures/Introduction/mutations-text.png){.absolute bottom="400" left="00" width="184" height="26"}
+![](Figures/Introduction/geneflow-text.png){.absolute bottom="400" left="780" width="176" height="26"}
+:::
+
+------------------------------------------------------------------------
+
+## Rapid adaptation
+
+![](Figures/Introduction/RapidAdaptation.png){.fragment fig-align="center" height="500"}
+
+
+------------------------------------------------------------------------
+
+## Basis of Adaptive Response {auto-animate="true"}
+
+::: columns
+::: {.column width="47%"}
+:::{.r-fit-text .absolute top="150" left="0"}
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Phenotypic variation
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Differential fitness
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Heritability of these traits
+:::
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="48%"}
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## Basis of Adaptive Response {auto-animate="true"}
+
+::: columns
+::: {.column width="47%"}
+:::{.r-fit-text .absolute top="150" left="0"}
+::: {.nonincremental}
+-   Phenotypic variation
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Differential fitness
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Heritability of these traits
+:::
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="48%"}
+![](Figures/Introduction/AdaptiveResponse-Trait.png){.absolute top="200" right="50" width="450" height="300"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Basis of Adaptive Response {auto-animate="true"}
+
+::: columns
+::: {.column width="47%"}
+:::{.r-fit-text .absolute top="150" left="0"}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Phenotypic variation
+:::
+::: {.nonincremental}
+-   Differential fitness
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Heritability of these traits
+:::
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="48%"}
+![](Figures/Introduction/AdaptiveResponse-Trait.png){.absolute top="50" right="50" width="450" height="300"}
+![](Figures/Introduction/AdaptiveResponse-Fitness.png){.absolute top="375" right="50" width="450" height="300"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Basis of Adaptive Response {auto-animate="true"}
+
+::: columns
+::: {.column width="47%"}
+:::{.r-fit-text .absolute top="150" left="0"}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Phenotypic variation
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Differential fitness
+:::
+::: {.nonincremental}
+-   Heritability of these traits
+:::
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="48%"}
+![](Figures/Introduction/AdaptiveResponse-Trait.png){.absolute top="50" right="50" width="450" height="300"}
+
+![](Figures/Introduction/AdaptiveResponse-Fitness.png){.absolute top="375" right="50" width="450" height="300"}
+:::
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Basis of Adaptive Response {auto-animate="true"}
+
+::: columns
+::: {.column width="47%"}
+:::{.r-fit-text .absolute top="150" left="0"}
+::: {.nonincremental}
+-   Phenotypic variation
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Differential fitness
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Heritability of these traits
+:::
+
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="48%"}
+![](Figures/Introduction/AdaptiveResponse-Trait.png){.absolute top="50" right="50" width="450" height="300"}
+![](Figures/Introduction/AdaptiveResponse-Fitness.png){.absolute top="375" right="50" width="450" height="300"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Genetic Architecture of Fitness-Associated Traits
+
+![](Figures/Introduction/Epistasis1.png){.fragment fig-align="center"}
+<!-- ![](Figures/Introduction/Epistasis2.png){.fragment fig-align="center" height=300} -->
+
+------------------------------------------------------------------------
+
+## Epistasis
+
+::: columns
+
+::: {.column width="35%"}
+::: {.r-fit-text}
+::: {}
+- Functional
+:::
+::: {}
+- Statistical
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+::: {.column width="60%"}
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## Epistasis - Functional
+
+::: columns
+
+::: {.column width="35%"}
+::: {.r-fit-text}
+::: {.nonincremental}
+- Functional
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+- Statistical
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+::: {.column width="60%"}
+![](Figures/Introduction/Epistasis-Functional.png){fig-align="center" height=600}
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## Epistasis - Statistical
+
+::: columns
+
+::: {.column width="35%"}
+::: {.r-fit-text}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+- Functional
+:::
+::: {.nonincremental}
+- Statistical
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+::: {.column width="60%"}
+![](Figures/Introduction/Epistasis-Statistical-none.png){.absolute top=75 right=0 height=560}
+![](Figures/Introduction/Epistasis-Statistical-additive.png){.fragment .absolute top=75 right=0 height=560}
+![](Figures/Introduction/Epistasis-Statistical-positive.png){.fragment .absolute top=75 right=0 height=560}
+![](Figures/Introduction/Epistasis-Statistical-negative.png){.fragment .absolute top=75 right=0 height=560}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Gene Flow - Epistasis - Rapid Adaptation  {auto-animate="true"}
+
+::: {.absolute top="100" left="600" }
+::: {}
+-   Classical understanding
+:::
+<!-- ::: {.nonincremental style="color: rgba(200,200,200,0)"} -->
+<!-- -   Dynamically changing environments -->
+<!-- :::  -->
+<!-- ::: {.nonincremental style="color: rgba(200,200,200,0)"} -->
+<!-- -   Rapid adaptive responses -->
+<!-- ::: -->
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Genetic architecture of complex traits
+::: 
+::: 
+::: fragment
+![](Figures/Introduction/HabitatLarge.png){.absolute bottom="-50" left="82" width="631" height="479"}
+![](Figures/Introduction/Mutations.png){.absolute bottom="300" left="150" width="184" height="302"} ![](Figures/Introduction/Selection2.png){.absolute bottom="0" left="115" width="110" height="110"} ![](Figures/Introduction/Drift2.png){.absolute bottom="0" left="567" width="110" height="110"} ![](Figures/Introduction/AllelePool-Large-AfterSelection.png){.absolute bottom="0" left="150" width="492" height="321"}
+![](Figures/Introduction/HabitatSmall.png){.absolute bottom="-35" left="780" width="462" height="333"}
+![](Figures/Introduction/AllelePool-Small.png){.absolute bottom="0" left="840" width="334" height="234"}
+![](Figures/Introduction/GeneFlow1.png){.absolute bottom="200" left="550" width="360" height="262" }
+![](Figures/Introduction/drift-text.png){.absolute bottom="110" left="620" width="88" height="26"}
+![](Figures/Introduction/selection-text.png){.absolute bottom="110" left="10" width="163" height="26"}
+![](Figures/Introduction/mutations-text.png){.absolute bottom="400" left="00" width="184" height="26"}
+![](Figures/Introduction/geneflow-text.png){.absolute bottom="400" left="780" width="176" height="26"}
+:::
+
+------------------------------------------------------------------------
+
+## Gene Flow - Epistasis - Rapid Adaptation  {auto-animate="true"}
+
+::: {.absolute top="100" left="600" }
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Classical understanding
+:::
+::: {.nonincremental}
+-   Dynamically changing environments
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Rapid adaptive responses
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Pervasive epistasis in complex traits
+::: 
+:::
+::: {}
+![](Figures/Introduction/RapidEnvironmentalChange1.jpg){.absolute top="100" left="0" width="550" height="300" }
+:::
+<!-- ::: fragment -->
+<!-- ![](Figures/Introduction/SeasonalChanges.jpg){.absolute top="100" left="0" width="600" height="600"} -->
+<!-- ::: -->
+<!-- ::: fragment -->
+<!-- ![](Figures/Introduction/seasonalSNPs.png){.absolute top="100" left="0" width="600" height="400"} -->
+<!-- ::: -->
+
+<!-- ::: fragment -->
+<!-- ![](Figures/Introduction/RapidAdaptation.png){.absolute top="100" left="0" width="600" height="400"} -->
+<!-- ::: -->
+
+------------------------------------------------------------------------
+
+## Gene Flow - Epistasis - Rapid Adaptation  {auto-animate="true"}
+
+::: {.absolute top="100" left="600"  }
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Classical understanding
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Dynamically changing environments
+::: 
+::: {.nonincremental}
+-   Rapid adaptive responses
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0)"}
+-   Pervasive epistasis in complex traits
+::: 
+::: 
+<!-- ::: fragment -->
+<!-- ![](Figures/Introduction/Epistasis1.png){.absolute top="100" left="0" width="600" height="200"} -->
+<!-- ::: -->
+::: {}
+![](Figures/Introduction/RapidEnvironmentalChange1.jpg){.absolute top="100" left="0" width="550" height="300"}
+:::
+
+
+------------------------------------------------------------------------
+
+## Gene Flow - Epistasis - Rapid Adaptation  {auto-animate="true"}
+
+::: {.absolute top="100" left="600"  }
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Classical understanding
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Dynamically changing environments
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Rapid adaptive responses
+:::
+::: {.nonincremental}
+-   Pervasive epistasis in complex traits
+::: 
+::: 
+<!-- ::: fragment -->
+<!-- ![](Figures/Introduction/Epistasis1.png){.absolute top="100" left="0" width="600" height="200"} -->
+<!-- ::: -->
+:::{}
+![](Figures/Introduction/Epistasis2.png){.absolute top="100" left="0" width="550" height="300" }
+:::
+
+------------------------------------------------------------------------
+
+## Gene Flow - Epistasis - Rapid Adaptation  {auto-animate="true"}
+
+::: {.absolute top="100" left="600"  }
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Classical understanding
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Dynamically changing environments
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Rapid adaptive responses
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Pervasive epistasis in complex traits
+:::
+::: {.nonincremental}
+-   Epistasis can be adaptive
+:::
+:::
+::: {}
+![](Figures/Introduction/Kimura.png){.absolute top="100" left="0" width="550"}
+:::
+::: fragment
+![](Figures/Introduction/Kimura2.png){.absolute top="300" left="0" width="550"}
+:::
+
+------------------------------------------------------------------------
+
+## Gene Flow - Epistasis - Rapid Adaptation  {auto-animate="true"}
+
+::: {.absolute top="100" left="600" }
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Classical understanding
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Dynamically changing environments
+::: 
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Rapid adaptive responses
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Pervasive epistasis in complex traits
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+-   Epistasis can be adaptive
+:::
+::: {.nonincremental}
+-   Gene flow can also be adaptive
+:::
+:::
+::: {}
+![](Figures/Introduction/Kimura.png){.absolute top="100" left="0" width="550" }
+![](Figures/Introduction/Kimura2.png){.absolute top="300" left="0" width="550" }
+:::
+
+------------------------------------------------------------------------
+
+![](Figures/Introduction/migrationNOTgeneflow.png){.absolute top="200" left="340"
+width="600" height="282"}
+
+------------------------------------------------------------------------
+
+## Migration Events {auto-animate="true"}
+
+::: columns
+::: {.column width="45%"}
+::: {}
+Let's consider a simple model
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="50%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Migration Events {auto-animate="true"}
+
+::: columns
+::: {.column width="45%"}
+:::{}
+Let's consider a simple model
+:::
+::: {.nonincremental}
+- Focal population $F$
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="50%"}
+::: {.absolute top="75" left="620" }
+$F$
+:::
+::: {.fragment fragment-index=1}
+![](Figures/Introduction/HabitatF.png){ .absolute bottom="50" left="500" width="300" height="480"}
+:::
+![](Figures/Introduction/F-Population.png){.absolute bottom="60" left="510" width="280" height="460"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Migration Events {auto-animate="true"}
+
+::: columns
+::: {.column width="45%"}
+::: {}
+Let's consider a simple model
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+- Focal population $F$
+:::
+::: {.nonincremental}
+- Migrant population $M$
+:::
+:::
+:::{.column width="5%"}
+:::
+:::{.column width="50%"}
+::: {.absolute top="75" left="620" }
+$F$
+:::
+:::{}
+![](Figures/Introduction/HabitatF.png){.absolute bottom="50" left="500" width="300" height="480"}
+![](Figures/Introduction/F-Population.png){.absolute bottom="60" left="510" width="280" height="460"}
+:::
+::: {.fragment}
+![](Figures/Introduction/HabitatM.png){ .absolute bottom="50" left="950" width="300" height="480"}
+:::
+::: {.absolute top="75" left="1070" }
+$M$
+:::
+::: {}
+![](Figures/Introduction/M-Population.png){.absolute bottom="60" left="960" width="280" height="460"}
+![](Figures/Introduction/M-Migrants.png){.absolute bottom="60" left="960" width="280" height="460"}
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Migration Events {auto-animate="true"}
+
+::: columns
+::: {.column width="45%"}
+:::{}
+Let's consider a simple model
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+- Focal population $F$
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+- Migrant population $M$
+:::
+::: {.nonincremental}
+- Unidirectional Migration
+  - From $M$ to $F$
+  - Single time
+:::
+:::
+:::{.column width="5%"}
+:::
+:::{.column width="50%"}
+::: {.absolute top="75" left="620" }
+$F$
+:::
+:::{}
+![](Figures/Introduction/HabitatF.png){.absolute bottom="50" left="500" width="300" height="480"}
+![](Figures/Introduction/F-Population.png){.absolute bottom="60" left="510" width="280" height="460"}
+![](Figures/Introduction/HabitatM.png){ .absolute bottom="50" left="950" width="300" height="480"}
+:::
+::: {.absolute top="75" left="1070" }
+$M$
+:::
+:::{}
+![](Figures/Introduction/M-Population.png){.absolute bottom="60" left="960" width="280" height="460"}
+![](Figures/Introduction/M-Migrants.png){.absolute bottom="60" left="510" width="280" height="460"}
+![](Figures/Introduction/LeftArrow.png){.absolute bottom="240" left="820" width="100" height="100"}
+:::
+:::
+:::
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ## Migration Events {auto-animate="true"} -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="45%"} -->
+<!-- ::: {} -->
+<!-- Let's consider a simple model -->
+<!-- ::: -->
+<!-- ::: {.nonincremental style="color: rgba(200,200,200,0.6)"} -->
+<!-- - Focal population $F$ -->
+<!-- ::: -->
+<!-- ::: {.nonincremental style="color: rgba(200,200,200,0.6)"} -->
+<!-- - Migrant population $M$ -->
+<!-- ::: -->
+<!-- ::: {.nonincremental} -->
+<!-- - Unidirectional Migration -->
+<!--   - From $M$ to $F$ -->
+<!--   - Single time -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- :::{.column width="5%"} -->
+<!-- ::: -->
+<!-- :::{.column width="50%"} -->
+<!-- ::: {.absolute top="75" left="620" } -->
+<!-- $F$ -->
+<!-- ::: -->
+<!-- :::{} -->
+<!-- ![](Figures/Introduction/HabitatF.png){.absolute bottom="50" left="500" width="300" height="480"} -->
+<!-- ![](Figures/Introduction/F-Population.png){.absolute bottom="60" left="510" width="280" height="460"} -->
+<!-- ![](Figures/Introduction/HabitatM.png){ .absolute bottom="50" left="950" width="300" height="480"} -->
+<!-- ::: -->
+<!-- ::: {.absolute top="75" left="1070" } -->
+<!-- $M$ -->
+<!-- ::: -->
+<!-- :::{} -->
+<!-- ![](Figures/Introduction/M-Population.png){.absolute bottom="60" left="960" width="280" height="460"} -->
+<!-- ![](Figures/Introduction/M-Migrants.png){.absolute bottom="60" left="510" width="280" height="460"} -->
+<!-- ![](Figures/Introduction/LeftArrow.png){.absolute bottom="240" left="820" width="100" height="100"} -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+
+------------------------------------------------------------------------
+
+## Fitness Effects of a Single Migration Event: Predictions {auto-animate="true"}
+
+::: columns
+::: {.column width="35%"}
+1.  **No effect on fitness**
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="60%"}
+- $F$ and $M$ are locally adapted, high levels of isolation, migration results in no gene flow
+- $F$ and $M$ have similar trait values in focal environment, gene interactions are additive
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Fitness Effects of a Single Migration Event: Predictions {auto-animate="true"}
+
+::: columns
+::: {.column width="35%"}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+1.  **No effect on fitness**
+:::
+::: {.nonincremental}
+2.  **Decreases fitness**
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="60%"}
+- $F$ and $M$ are locally adapted, gene interactions are additive
+- $F$ and $M$ have similar trait values in focal environment, gene interactions are dominated by negative epistasis
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## Fitness Effects of a Single Migration Event: Predictions {auto-animate="true"}
+
+::: columns
+::: {.column width="35%"}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+1.  **No effect on fitness**
+:::
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+2.  **Decreases fitness**
+:::
+::: {.nonincremental}
+3.  **Increases fitness**
+:::
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="60%"}
+-   Regardless of being locally adapted, gene interactions are dominated by positive epistasis
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Adaptive Consequences of a Single Migration Event: Predictions {auto-animate="true"}
+
+::: columns
+::: {.column width="35%"}
+1.  **No effect**
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="60%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Adaptive Consequences of a Single Migration Event: Predictions {auto-animate="true"}
+
+::: columns
+::: {.column width="35%"}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+1.  **No effect**
+:::
+
+::: nonincremental
+2.  **Impedes adaptation**
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="60%"}
+-   Dobzhansky Muller Incompatibilities
+-   Swamping etc.
+-   Decreased fitness after migration with possible recovery to under original fitness
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Adaptive Consequences of a Single Migration Event: Predictions {auto-animate="true"}
+
+::: columns
+::: {.column width="35%"}
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+1.  **No effect**
+:::
+
+::: {.nonincremental style="color: rgba(200,200,200,0.6)"}
+2.  **Impedes adaptation**
+:::
+
+::: nonincremental
+3.  **Facilitates adaptation**
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="60%"}
+-   Variation is good regardless of the source (assumes positive epistasis)
+    -   Always increased fitness
+-   Condition dependent (can be a mix of positive and negative epistasis)
+    -   Decreased fitness followed by increasing fitness after several generations
+:::
+:::
+
+-----------------------------------------------------------------------
+
+## Best(!) Model System: *Drosophila melanogaster*
+
+![\n](Figures/Introduction/dmel_nature.jpg)
+
+------------------------------------------------------------------------
+
+## Population Demography of *D. melanogaster*
+
+![Singh and Long (1992)](Figures/Introduction/drosophilamap.jpg)
+
+------------------------------------------------------------------------
+
+## Local Adaptation and Latitudinal Clines
+
+![Adrion et al. (2015)](Figures/Introduction/clines.png)
+
+------------------------------------------------------------------------
+
+## Rapid Adaptation
+
+::: {.fragment .absolute bottom="0" left="240" width="800" .fade-out}
+![Rudman et al. (2022)](Figures/Introduction/RudmanRapidEvolution.png)
+:::
+
+----------
+
+# Direct Experiments on the Effects of Migration on Rapid Adaption
+
+
+## Research Questions
+
+::: {.r-fit-text}
+- Does migration result in enough gene flow to affect populations?
+- What is the effect of migration on rapid adaptation? 
+  - No effect, facilitate, or impede
+- What is the relationship between variation and the adaptive response?
+  - Amount of variation vs. the nature of variation
+:::
+
+------------------------------------------------------------------------
+
+## Research Hypothesis
+
+- Single time large migration event from a remote population to a focal population, after temperature mediated selection, might:
+  - Have no effects on the adaptive response
+  - Impede adaptation by decreasing the response
+  - Facilitate adaptation by increasing the response 
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-100" width="950"} 
+![](Figures/Migration/orchards.png){.fragment .absolute bottom="40" left="600" width="200"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-700" width="950"} 
+![](Figures/Migration/orchards.png){.absolute bottom="40" left="000" width="200"}
+
+![](Figures/Migration/isofemales.png){.fragment .absolute bottom="40" left="250" width="120"}
+
+::: fragment
+![](Figures/Migration/flies-more1.png){.absolute bottom="75" left="500" width="5"}
+![](Figures/Migration/flies-more2.png){.absolute bottom="325" left="500" width="5"}
+![](Figures/Migration/flies-more3.png){.absolute bottom="325" left="500" width="5"}
+![](Figures/Migration/flies-more4.png){.absolute bottom="325" left="500" width="5"}
+![](Figures/Migration/flies-more5.png){.absolute bottom="475" left="500" width="5"}
+
+![](Figures/Migration/flies2.png){.absolute bottom="75" left="500" width="5"}
+![](Figures/Migration/flies4.png){.absolute bottom="475" left="500" width="5"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="450" width="150"} 
+:::
+
+::: fragment
+![](Figures/Migration/CagePF.png){.absolute bottom="155" left="750" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="375" left="750" width="70"}
+:::
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-700" width="950"} 
+![](Figures/Migration/orchards.png){.absolute bottom="40" left="000" width="200"}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="250" width="120"}
+
+![](Figures/Migration/flies-more1.png){.absolute bottom="75" left="500" width="5"}
+![](Figures/Migration/flies-more2.png){.absolute bottom="160" left="760" width="50"}
+![](Figures/Migration/flies-more3.png){.absolute bottom="325" left="500" width="5"}
+![](Figures/Migration/flies-more4.png){.absolute bottom="380" left="760" width="50"}
+![](Figures/Migration/flies-more5.png){.absolute bottom="475" left="500" width="5"}
+
+![](Figures/Migration/flies2.png){.absolute bottom="75" left="500" width="5"}
+![](Figures/Migration/flies4.png){.absolute bottom="475" left="500" width="5"}
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="450" width="150"} 
+
+![](Figures/Migration/CagePF.png){.absolute bottom="155" left="750" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="375" left="750" width="70"}
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-700" width="950"} 
+![](Figures/Migration/orchards.png){.absolute bottom="40" left="000" width="200"}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="250" width="120"}
+
+![](Figures/Migration/flies-more1.png){.absolute bottom="75" left="500" width="5"}
+![](Figures/Migration/flies-more3.png){.absolute bottom="325" left="500" width="5"}
+![](Figures/Migration/flies-more5.png){.absolute bottom="475" left="500" width="5"}
+
+![](Figures/Migration/flies2.png){.absolute bottom="170" left="760" width="40"}
+![](Figures/Migration/flies4.png){.absolute bottom="475" left="500" width="5"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="450" width="150"} 
+
+![](Figures/Migration/CagePF.png){.absolute bottom="155" left="750" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="375" left="750" width="70"}
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-700" width="950"} 
+![](Figures/Migration/orchards.png){.absolute bottom="40" left="000" width="200"}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="250" width="120"}
+
+![](Figures/Migration/flies-more1.png){.absolute bottom="75" left="500" width="5"}
+![](Figures/Migration/flies-more3.png){.absolute bottom="325" left="500" width="5"}
+![](Figures/Migration/flies-more5.png){.absolute bottom="475" left="500" width="5"}
+
+![](Figures/Migration/flies4.png){.absolute bottom="400" left="760" width="40"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="450" width="150"} 
+
+![](Figures/Migration/CagePF.png){.absolute bottom="155" left="750" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="375" left="750" width="70"}
+
+::: fragment
+![](Figures/Migration/CageF.png){.absolute bottom="45" left="750" width="70"}
+![](Figures/Migration/CageP.png){.absolute bottom="265" left="750" width="70"}
+![](Figures/Migration/CageM.png){.absolute bottom="485" left="750" width="70"}
+::: 
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-700" width="950"} 
+![](Figures/Migration/orchards.png){.absolute bottom="40" left="000" width="200"}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="250" width="120"}
+
+![](Figures/Migration/flies-more1.png){.absolute bottom="50" left="760" width="50"}
+![](Figures/Migration/flies-more3.png){.absolute bottom="270" left="760" width="50"}
+![](Figures/Migration/flies-more5.png){.absolute bottom="490" left="760" width="50"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="450" width="150"} 
+
+![](Figures/Migration/CageF.png){.absolute bottom="45" left="750" width="70"}
+![](Figures/Migration/CagePF.png){.absolute bottom="155" left="750" width="70"}
+![](Figures/Migration/CageP.png){.absolute bottom="265" left="750" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="375" left="750" width="70"}
+![](Figures/Migration/CageM.png){.absolute bottom="485" left="750" width="70"}
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/map_transparent2.png){.absolute bottom="0" left="-1200" width="950"} 
+![](Figures/Migration/orchards.png){.absolute bottom="40" left="-500" width="200"}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="-150" width="120"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="50" width="150"} 
+
+![](Figures/Migration/CageF.png){.absolute bottom="45" left="350" width="70"}
+![](Figures/Migration/CagePF.png){.absolute bottom="155" left="350" width="70"}
+![](Figures/Migration/CageP.png){.absolute bottom="265" left="350" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="375" left="350" width="70"}
+![](Figures/Migration/CageM.png){.absolute bottom="485" left="350" width="70"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="-150" width="120"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="50" width="150"} 
+
+![](Figures/Migration/CageF.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CagePF.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CageP.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CageM.png){.absolute bottom="200" left="730" width="70"}
+
+![](Figures/Migration/replicates-lab.png){.absolute bottom="125" left="650" width="300"}
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="125" left="650" width="300"}
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="125" left="650" width="300"}
+
+![](Figures/Migration/replicates-field.png){.fragment .absolute bottom="200" left="350" width="200"}
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="-150" width="120"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="50" width="150"} 
+
+![](Figures/Migration/CageF.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CagePF.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CageP.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CagePM.png){.absolute bottom="200" left="730" width="70"}
+![](Figures/Migration/CageM.png){.absolute bottom="200" left="730" width="70"}
+
+![](Figures/Migration/replicates-lab.png){.absolute bottom="125" left="650" width="300"}
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="125" left="650" width="300"}
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="125" left="650" width="300"}
+
+![](Figures/Migration/replicates-field.png){.fragment .absolute bottom="0" right="0" width="100"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/isofemales.png){.absolute bottom="40" left="-550" width="120"}
+
+![](Figures/Migration/outbreds.png){.absolute bottom="40" left="-350" width="150"} 
+
+![](Figures/Migration/replicates-lab.png){.absolute bottom="0" left="125" width="150"}
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="200" left="125" width="200"}
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="400" left="125" width="200"}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="0" right="0" width="100"}
+
+::: fragment
+![](Figures/Migration/phenotyping.png){.absolute bottom="200" left="700" width="500"}
+![](Figures/Migration/poolseq.png){.absolute bottom="50" left="750" width="100"}
+:::
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/replicates-lab.png){.absolute top="30" right="120" width="50"}
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="100" left="100" width="200"}
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="350" left="100" width="200"}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="0" right="0" width="100"}
+
+![](Figures/Migration/phenotyping.png){.absolute top="10" right="0" width="200"}
+![](Figures/Migration/poolseq.png){.absolute top="-300" left="750" width="60"}
+
+::: fragment
+![](Figures/Migration/SummerIncubatorsNoCages.png){.absolute bottom="175" left="450" width="300"}
+![](Figures/Migration/FallIncubatorNoCages.png){.absolute bottom="175" left="650" width="300"}
+:::
+
+![](Figures/Migration/conditions-summer.png){.fragment .absolute bottom="410" left="485" width="120"}
+
+![](Figures/Migration/conditions-fall.png){.fragment .absolute bottom="410" left="680" width="120"}
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/phenotyping.png){.absolute top="10" right="0" width="200"}
+![](Figures/Migration/replicates-field.png){.absolute bottom="0" right="0" width="100"}
+
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="250" left="500" width="100"}
+![](Figures/Migration/SummerIncubatorsNoCages.png){.absolute bottom="175" left="450" width="300"}
+![](Figures/Migration/FallIncubatorNoCages.png){.absolute bottom="175" left="650" width="300"}
+
+![](Figures/Migration/SummerIncubatorsWCages.png){.absolute bottom="175" left="450" width="300"}
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="250" left="700" width="100"}
+![](Figures/Migration/FallIncubatorWCages.png){.absolute bottom="175" left="650" width="300"}
+
+![](Figures/Migration/conditions-summer.png){.absolute bottom="410" left="485" width="120"}
+![](Figures/Migration/conditions-fall.png){.absolute bottom="410" left="680" width="120"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/phenotyping.png){.absolute bottom="200" right="0" width="500"}
+![](Figures/Migration/replicates-field.png){.absolute bottom="0" right="0" width="100"}
+
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="250" left="100" width="100"}
+![](Figures/Migration/SummerIncubatorsNoCages.png){.absolute bottom="175" left="50" width="300"}
+![](Figures/Migration/FallIncubatorNoCages.png){.absolute bottom="175" left="250" width="300"}
+
+![](Figures/Migration/SummerIncubatorsWCages.png){.absolute bottom="175" left="50" width="300"}
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="250" left="300" width="100"}
+![](Figures/Migration/FallIncubatorWCages.png){.absolute bottom="175" left="250" width="300"}
+
+![](Figures/Migration/conditions-summer.png){.absolute bottom="410" left="85" width="120"}
+![](Figures/Migration/conditions-fall.png){.absolute bottom="410" left="280" width="120"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="0" right="0" width="100"}
+
+![](Figures/Migration/replicates-lab-warm.png){.absolute bottom="250" right="310" width="100"}
+![](Figures/Migration/SummerIncubatorsNoCages.png){.absolute bottom="175" left="50" width="300"}
+
+![](Figures/Migration/replicates-lab-cold.png){.absolute bottom="250" right="310" width="100"}
+![](Figures/Migration/FallIncubatorNoCages.png){.absolute bottom="175" left="250" width="300"}
+
+![](Figures/Migration/conditions-summer.png){.absolute bottom="410" left="85" width="120"}
+![](Figures/Migration/conditions-fall.png){.absolute bottom="410" left="280" width="120"}
+
+![](Figures/Migration/phenotyping.png){.absolute bottom="200" right="0" width="500"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="175" left="100" width="300"}
+
+![](Figures/Migration/SummerIncubatorsNoCages.png){.absolute bottom="175" left="-850" width="300"}
+
+![](Figures/Migration/FallIncubatorNoCages.png){.absolute bottom="175" left="-650" width="300"}
+
+![](Figures/Migration/conditions-summer.png){.absolute bottom="410" left="-815" width="120"}
+![](Figures/Migration/conditions-fall.png){.absolute bottom="410" left="-620" width="120"}
+
+![](Figures/Migration/phenotyping.png){.absolute top="10" right="0" width="200"}
+
+![](Figures/Migration/Field.png){.fragment .absolute bottom="200" right="100" height="300"}
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="250" left="500" width="100"}
+![](Figures/Migration/phenotyping.png){.absolute top="10" right="0" width="200"}
+![](Figures/Migration/Field.png){.absolute bottom="200" left="250" height="300"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="250" left="300" width="100"}
+![](Figures/Migration/phenotyping.png){.absolute bottom="200" right="0" height="300"}
+![](Figures/Migration/Field.png){.absolute bottom="200" left="0" height="300"}
+
+
+------------------------------------------------------------------------
+
+## Experimental Design {auto-animate=true}
+
+![](Figures/Migration/replicates-field.png){.absolute bottom="250" right="270" width="150"}
+![](Figures/Migration/phenotyping.png){.absolute bottom="200" right="0" height="300"}
+![](Figures/Migration/Field.png){.absolute bottom="200" left="0" height="300"}
+
+------------------------------------------------------------------------
+
+## Results
+
+
+----
+
+## Results: Fitness Effects of 1:1 Gene Flow
+
+![](Figures/Migration/Figure-S7-Controls.png){.fragment .absolute top="100" left="100" height="550" }
+
+
+## Results: Gene Flow as a Result of a Migration Event
+
+::: {.panel-tabset}
+
+
+## Plot
+
+![](Figures/Migration/Figure-S2-MDS-Experimental.png){.fragment .absolute top="175" left="390" width="500"}
+
+
+## Distance Matrix
+
+|    |       F |      PF |      P  |      PM |
+|----|---------|---------|---------|---------|
+| PF | 137.115 |         |         |         |                    
+| P  | 148.423 | 77.341  |         |         |            
+| PM | 144.548 | 68.203  | 75.732  |         |  
+| M  | 157.985 | 97.717  | 100.952 |  89.629 |
+
+
+:::
+
+------------------------------------------------------------------------
+
+## Results: Rapid Adaptation {.scrollable}
+
+::: {.panel-tabset}
+
+### Plot
+
+![](Figures/Migration/Figure2-Phenotypic_Evolutinary_Rates-Ready.png){.fragment .absolute top="175" left="365" width="550"}
+
+
+### Response to selection {style="font-size:0.6em"}
+
+|Trait                           |Selection   | greater|    less|
+|:-------------------------------|:-----------|-------:|-------:|
+|Development Time                |Summer-like | 1.00000| 0.03125*|
+|Development Time                |Fall-like   | 0.03125*| 1.00000|
+|Viability                       |Summer-like | 0.03125*| 1.00000|
+|Viability                       |Fall-like   | 0.03125| 1.00000|
+|Fecundity                       |Summer-like | 1.00000| 0.03125*|
+|Fecundity                       |Fall-like   | 0.96875| 0.06250|
+|Heat Tolerance (Females)        |Summer-like | 1.00000| 0.03125*|
+|Heat Tolerance (Females)        |Fall-like   | 1.00000| 0.03125*|
+|Heat Tolerance (Males)          |Summer-like | 1.00000| 0.03125*|
+|Heat Tolerance (Males)          |Fall-like   | 1.00000| 0.03125*|
+|Starvation Resistance (Females) |Summer-like | 0.78125| 0.31250*|
+|Starvation Resistance (Females) |Fall-like   | 1.00000| 0.03125*|
+|Starvation Resistance (Males)   |Summer-like | 0.90625| 0.15625|
+|Starvation Resistance (Males)   |Fall-like   | 0.93750| 0.09375|
+
+### Differential Response {style="font-size:0.6em"}
+
+|Trait                           | greater |     less|
+|:-------------------------------|:--------|:--------|
+|Development Time                | 0.03125*|  1.00000|
+|Viability                       | 0.78125 |  0.31250|
+|Fecundity                       | 0.03125*|  1.00000|
+|Heat Tolerance (Females)        | 0.93750 |  0.09375|
+|Heat Tolerance (Males)          | 0.03125*|  1.00000|
+|Starvation Resistance (Females) | 1.00000 | 0.03125*|
+|Starvation Resistance (Males)   | 0.40625 |  0.68750|
+
+:::
+
+------------------------------------------------------------------------
+
+## Results: Rapid Adaptation
+
+![](Figures/Migration/Figure3-Phenotypic-PCAPlot-Horizontal.png){.fragment .absolute top="75" left="0" width="900"}
+
+------------------------------------------------------------------------
+
+## Results: Temperature-mediated adaptation
+
+::: {.panel-tabset}
+
+### Plot
+
+![](Figures/Migration/Figure-S8-Phenotypic-PCAPlot-SummerFall.png){.fragment .absolute top="175" left="390" width="500"}
+
+
+### MANOVA {style="font-size:0.6em"}
+
+|                          |  Df| Pillai| approx F| num Df| den Df|Pr(>F)   |
+|:-------------------------|---:|------:|--------:|------:|------:|:--------|
+|Selection                 |   1|  0.853|  111.454|      6|    115|1.52e-45 ***|
+|Time                      |   1|  0.782|   68.814|      6|    115|9.45e-36 ***|
+|Population                |   4|  0.831|    5.160|     24|    472|2.08e-13 ***|
+|Selection:Time            |   1|  0.853|  111.454|      6|    115|1.52e-45 ***|
+|Selection:Population      |   4|  0.175|    0.901|     24|    472|6.01e-01 |
+|Time:Population           |   4|  0.430|    2.367|     24|    472|3.26e-04 ***|
+|Selection:Time:Population |   4|  0.175|    0.901|     24|    472|6.01e-01 |
+|Residuals                 | 120|     NA|       NA|     NA|     NA|NA       |
+
+:::
+
+------------------------------------------------------------------------
+
+## Results: Gene Flow Facilitated Adaptive Response
+
+::: {.panel-tabset}
+
+### Plot
+
+![](Figures/Migration/Figure4A-DTSelection-Raw.png){.fragment .absolute top="175" left="340" width="600"}
+
+### t-tests
+
+| Time          |Selection   |Population    |greater    |less        |
+|:--------------|:-----------|:-------------|:----------|:-----------|
+|Pre-selection  |            |PF vs PF[sim] |0.69514    |0.304863    |
+|Pre-selection  |            |PM vs PM[sim] |0.99832    |0.001681**  |
+|Post-selection |Summer-like |PF vs PF[sim] |0.98807    |0.011932*   |
+|Post-selection |Summer-like |PM vs PM[sim] |0.99933    |0.000671*** |
+|Post-selection |Fall-like   |PF vs PF[sim] |0.02150*   |0.978500    |
+|Post-selection |Fall-like   |PM vs PM[sim] |0.00416**  |0.995844    |
+
+:::
+
+------------------------------------------------------------------------
+
+## Results: Lab - Field Palallelism {auto-animate=true}
+
+![](Figures/Migration/Figure4C-DTInVsOut-Raw.png){.fragment .absolute top="75" left="0" height="530"}
+
+------------------------------------------------------------------------
+
+## Results: Epistasis {auto-animate=true}
+
+::: {.nonincremental}
+
+::: columns
+::: {.column width="20%"}
+::: {style="color: rgba(200,200,200,0.6)"}
+1.  **No effect**
+:::
+
+::: {style="color: rgba(200,200,200,0.6)"}
+2.  **Impedes adaptation**
+:::
+
+::: {}
+3.  **Facilitates adaptation**
+:::
+:::
+
+::: {.column width="55%"}
+::: {style="color: rgba(200,200,200,0.6)"}
+-   Variation is good regardless of the source (assumes positive epistasis)
+    -   Always increased fitness
+:::
+::: {}
+-   Condition dependent (can be a mix of positive and negative epistasis)
+    -   Decreased fitness followed by increasing fitness after several generations
+:::
+:::
+:::
+
+![](Figures/Migration/Figure-S7-Controls.png){.absolute top="0" right="0" width="300" }
+![](Figures/Migration/Figure4A-DTSelection-Raw.png){.absolute top="200" right="0" width="300"}
+![](Figures/Migration/Figure4C-DTInVsOut-Raw.png){.absolute top="465" right="0" width="300" }
+
+:::
+
+------------------------------------------------------------------------
+
+## Summary
+- Migration events resulted in gene flow
+- Observations of rapid adaptation
+  - Direct response to selection in only 5 generations
+  - Differential response to selection regimes
+- Parallel responses to both selection regimes across populations
+- Temperature as the main driver of these responses
+- Adaptive role of migration
+- Epistatic interactions driving adaptation
+ 
+# Inferring population demography and geographic connectivity in natural *D. melanogaster* populations using mitochondrial genome
+
+------------------------------------------------------------------------
+
+## Questions
+
+- Does spatial distance explain the variation in *D. melanogaster* mitochondrial genome?
+
+- How can we infer geographic connectivity between *D. melanogaster* populations? 
+
+------------------------------------------------------------------------
+
+## Design and Method
+
+![](Figures/mtDNA/map.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+
+## Design and Method
+
+::: {.r-hstack}
+
+::: {.fragment}
+::: {data-id="box1" auto-animate-delay="0" style="background: #ed7d31; width: 195px; height: 450px; margin: 10px; padding:0.2in; color: #000; text-align: center; vertical-align:middle; border-radius:20px; line-height:15pt"}
+**Sampling**
+
+- - -
+
+6 Locations
+20 Samples
+
+- - -  
+
+Outgroups:
+
+2 Locations
+5 Samples 
+
+:::
+:::
+
+::: {.fragment}
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #ffc000; width: 350px; height: 350px; margin: 10px;padding:0.2in; color: #000; text-align: center; vertical-align:middle; border-radius:20px; line-height:15pt"}
+**Long Range PCR**
+
+- - - 
+
+Covering most of the genes on mtDNA
+
+From ~1500 to ~13000
+
+:::
+:::
+
+
+::: {.fragment}
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #70ad47; width: 240px; height: 200px; margin: 10px;padding:0.1in; color: #000; text-align: center; vertical-align:middle; border-radius:20px"}
+**Sequencing** 
+
+- - -
+
+<!-- Nextera -->
+
+127 samples
+
+:::
+:::
+
+::: {.fragment}
+::: {data-id="box4" auto-animate-delay="0.2" style="background: #5b9bd5; width: 270px; height: 350px; margin: 10px;padding:0.1in; color: #000; text-align: center; vertical-align:middle; border-radius:20px"}
+**Sample Processing**
+
+- - -
+
+111 Samples
+
+44 variant sites
+
+54 haplotypes
+::: 
+:::
+:::
+ 
+
+------------------------------------------------------------------------
+
+## Analysis {auto-animate="true"}
+
+::: {.r-hstack}
+
+::: {.fragment}
+::: {data-id="box1" auto-animate-delay="0" style="background: #ed7d31; width: 300px; height: 195px; margin: 100px 300px 100px 0px; padding: 0.4in ; color: #000; text-align: center; vertical-align:middle; border-radius:20px; line-height:15pt"}
+
+- - - 
+
+**Population Genetic Analysis** 
+
+- - -
+
+:::
+:::
+
+::: {.fragment}
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #ffc000; width: 400px; height: 300px; margin: 100x 300px 300x 0x; padding: 0.4in; color: #000; text-align: center; vertical-align:middle; border-radius:20px; line-height:15pt"}
+
+- - -
+
+**Bayesian Methods**
+**with BEAST & BSSVS** 
+
+- - - 
+
+To estimate potential migration events
+:::
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+## Results: Relatedness
+
+![](Figures/mtDNA/BootStrapTree(Nei).png){.fragment .absolute top=75 left=200}
+
+
+------------------------------------------------------------------------
+
+## Bayes Factor Interpretation {.scrollable .smaller}
+
+|BF           | Interpretation     |Supports  |
+|:-----------:|:-------------------|:--------:|
+|>100         |Extreme support     |H~A~       |
+|30 to 100    |Very strong support |H~A~       |
+|10 to 30     |Strong support      |H~A~      |
+|3 to 10      |Moderate support    |H~A~       |
+|1 to 3       |Anectodal support   |H~A~       |
+|=1           |No evidence         |H~A~ or H~0~|
+|0.3 to 1     |Anectodal support   |H~0~      |
+|0.1 to 0.3   |Moderate support    |H~0~      |
+|0.03 to 0.1  |Strong support      |H~0~      |
+|0.01 to 0.03 |Very strong support |H~0~      |
+|<0.01        |Extreme support     |H~0~      |
+
+------------------------------------------------------------------------
+ 
+## Results: BSSVS
+
+::: {.panel-tabset}
+
+### Bayes Factors {style="font-size: 0.7em;"}
+
+:::{.fragment}
+
+|LOCATION       |  Zambia|Austria |FL-Mia. |MD-Chu. |PA-Lin. |PA-Ind. |ME-Wel. |
+|:--------------|-------:|-------:|-------:|-------:|-------:|-------:|-------:|
+|ME-Eustis      |   0.220|0.363   |0.153   |**237.564** |1.502   |0.651   |1       |
+|ME-Wells       |   0.440|0.186   |0.186   |*21.381*  |*0.09*|0.29    |        |
+|PA-Indian      |   0.401|0.744   |**237.564** |9.371   |0.153   |        |        |
+|PA-Linvilla    |   0.121|**237.564** |0.121   |0.401   |        |        |        |
+|MD-Churchville | **237.564**|4.639   |1       |        |        |        |        |
+|FL-Miami       |   7.804|0.29    |        |        |        |        |        |
+|Austria        |   0.401|        |        |        |        |        |        |
+
+::: 
+
+### Maps
+
+![](Figures/mtDNA/Map-Large-Bayes.png){.fragment .absolute top="175" left="340" width="600"}
+![](Figures/mtDNA/Map-Medium-Bayes.png){.fragment .absolute top="175" left="340" width="600"}
+![](Figures/mtDNA/Map-Small-Bayes.png){.fragment .absolute top="175" left="340" width="600"}
+![](Figures/mtDNA/Map-Tiny-Bayes.png){.fragment .absolute top="175" left="340" width="600"}
+
+
+:::
+
+<!-- ::::{.columns} -->
+
+<!-- :::{.column width="60%"} -->
+<!-- ![](Figures/mtDNA/BeastTree-corrected.png){fig-align="center"} -->
+<!-- ::: -->
+
+<!-- :::{.column width="40%"} -->
+<!-- ![](Figures/mtDNA/Maps-combined-Bayes.png){fig-align="center" width="90%"} -->
+<!-- ![](Figures/mtDNA/table-bayesfactor.png){fig-align="center" width="90%" } -->
+<!-- ::: -->
+
+<!-- :::: -->
+
+------------------------------------------------------------------------
+
+## Summary
+
+- mtDNA is conserved in *D. melanogaster*, yet the diversity is not low. 
+
+- Population structure 
+  - Cannot be explained by spatial distance between populations
+  
+- Geographic connectivity in the mid- and long-range but not short-range
+
+- These methods can be used to infer migration rates between populations with temporal sampling.
+
+
+
+# Conclusion
+
+## Conclusion
+
+- Dynamically changing environments
+- Rapid adaptation
+
+- Prevalent views:
+  - Migration is maladaptive
+  - More variation is adaptive 
+  
+- The role of migration is context dependent 
+
+
+------------------------------------------------------------------------
+
+![](Figures/Dispersal/20190829_072836.mp4){.absolute mute="true" width="800"}
+
+
+# Acknowlegements
+
+------------------------------------------------------------------------
+
+###### Paul
+
+![](Figures/Acknowledgements/Paul.jpg)
+
+------------------------------------------------------------------------
+
+###### Committee Members 
+
+::: {.nonincremental}
+
+- Paul Sniegowski
+- Dustin Brisson
+- Mia Levine
+- Tim Linksvayer
+
+:::
+
+------------------------------------------------------------------------
+
+###### Lab Members {.smaller}
+::: {.nonincremental style="font-size: 0.7em"}
+
+::: columns 
+::: {.column}
+- Patricka Williams-Simon
+- Skyler Berardi
+- Jack Beltz
+- Hayes Oken
+- Edith Oteng
+- Caroline Barnhart
+- Charlie Pfeiffer
+- Winson Liu
+- Sekia Phillips
+:::
+
+::: {.column}
+**Previous Members**
+
+- Seth Rudman
+- Evgeny Brud
+- Subhash Rajpurohit
+- Amy Goldfischer
+- Emily Behrman
+- Vinayak Marthur
+
+:::
+
+::: {.column}
+![](Figures/Acknowledgements/lab1.jpg){.absolute bottom="0" right="0" width="400"}
+![](Figures/Acknowledgements/lab2.jpg){.fragment .absolute bottom="0" right="0" width="400"}
+![](Figures/Acknowledgements/lab3.jpg){.fragment .absolute bottom="0" right="0" width="400"}
+:::
+
+:::
+
+:::
+
+
+------- 
+
+###### Some Amazing Undergrads
+
+::: {.nonincremental style="font-size: 0.7em"}
+
+::: columns
+::: {.column}
+- Valentina Escudero
+- Yonatan Babore
+- Emma Torija
+- Ashleigh Williams
+- Liam Forsythe
+- Jordy Atencia
+:::
+
+::: {.column}
+![](Figures/Acknowledgements/undergrads.jpg){.absolute top="0" right="0" width="700"}
+![](Figures/Acknowledgements/yon.jpg){.absolute bottom="0" left="300" width="600"}
+
+:::
+
+
+:::
+
+:::
+
+
+----
+
+###### Collaborators and Funding sources
+
+::: {.nonincremental}
+
+::: columns
+::: {.column}
+**Brisson Lab**
+
+- Matt Mitchell
+- Zach Oppler
+:::
+
+:::{.column}
+**Petrov Lab**
+
+:::
+
+:::
+::: 
+
+------------------------------------------------------------------------
+
+###### Biology Department
+
+::: {.nonincremental}
+
+::: columns
+::: {.column}
+- Brian Gregory
+- Junhyong Kim
+- Dan & Winnie
+- Linda Robinson
+
+:::{}
+:::{}
+- Faculty
+- Staff
+- Housekeeping
+:::
+:::
+
+:::
+
+:::{.column}
+- Robin Sherwood
+- Leah Dennis
+- Colleen Gasiorowski
+- Ed Friess
+- Adam Linder
+:::
+
+:::
+::: 
+
+
+------------------------------------------------------------------------
+
+###### Cohort and Grad Students
+
+::: {.nonincremental}
+![](Figures/Acknowledgements/bio2012.JPG){.absolute top="75" left="0" width="300"}
+![](Figures/Acknowledgements/bio2013.JPG){.absolute top="300" left="0" width="300"}
+![](Figures/Acknowledgements/bio2014.jpg){.absolute top="-25" left="800" width="300"}
+![](Figures/Acknowledgements/bio2015.JPG){.absolute top="75" left="350" width="400"}
+![](Figures/Acknowledgements/bio2016.JPG){.absolute top="400" left="300" width="300"}
+![](Figures/Acknowledgements/bio2017.jpg){.absolute top="400" left="600" width="300"}
+![](Figures/Acknowledgements/bio2018.jpg){.absolute top="500" left="00" width="300"}
+![](Figures/Acknowledgements/bio2019.jpg){.absolute top="400" left="900" width="300"}
+
+:::
+
+------------------------------------------------------------------------
+
+###### Friends
+
+::: {.nonincremental}
+::: columns
+::: {.column}
+- Mitchell
+- Davorka
+- MAli
+- Mustafa
+- Emre
+- Heather
+- Yesim
+- Gunes
+- Ozgun
+- Mitra
+:::
+
+:::{.column}
+![](Figures/Acknowledgements/davorka.jpg){.absolute top="0" right="0" width="300"}
+![](Figures/Acknowledgements/Mitchell1.jpg){.absolute top="0" right="600" width="300"}
+![](Figures/Acknowledgements/MAli.jpg){.absolute top="100" right="300" width="300"}
+![](Figures/Acknowledgements/Mitchell_Davorka.jpg){.absolute top="0" right="300" width="300"}
+![](Figures/Acknowledgements/davorka3.jpg){.absolute top="200" right="00" width="300"}
+
+:::
+
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+###### Sierra and Cats
+
+![](Figures/Acknowledgements/sierra4.jpg){.absolute top="75" left="0" width="300"}
+![](Figures/Acknowledgements/sierra2.jpg){.absolute top="75" left="300" width="300"}
+![](Figures/Acknowledgements/ozanandlainey.jpg){.absolute top="75" left="600" width="300"}
+![](Figures/Acknowledgements/erwin3.jpg){.absolute top="75" left="900" width="300"}
+![](Figures/Acknowledgements/sierra5.jpg){.absolute top="275" left="0" width="300"}
+![](Figures/Acknowledgements/wedding.jpg){.absolute top="275" left="300" width="300"}
+![](Figures/Acknowledgements/erwin2.jpg){.absolute top="500" left="0" width="300"}
+![](Figures/Acknowledgements/sierra9.jpg){.absolute top="475" left="300" width="300"}
+
+
+------------------------------------------------------------------------
+
+###### Family
+
+![](Figures/Acknowledgements/family1.jpg){.absolute top="75" left="0" width="400" height="275"}
+![](Figures/Acknowledgements/family2.jpg){.absolute top="75" left="400" width="400" height="600"}
+![](Figures/Acknowledgements/family5.jpg){.absolute top="75" left="800" width="400" height="500"}
+
+
+------------------------------------------------------------------------
+
+![](Figures/Acknowledgements/inlaws2.JPG){.absolute top="0" left="0" width="600" height="475"}
+![](Figures/Acknowledgements/savanna.jpg){.absolute top="0" right="00" width="600" height="475"}
+![](Figures/Acknowledgements/inlaws.JPG){.absolute top=400 left="400" width="500" height="375"}
+
+# Thank you!
+
+
+--------
+
+## Extra slides - Exp vs Natural
+
+![](Figures/Migration/Figure-S1-MDS-Mixed.png)
+
+
+----
+
+
+## Extra slides - Allele freq
+
+![](Figures/mtDNA/MajorAlleleFreqs_by_Location.png)
+
+
+---
+
+## Extra slides - Haplotype map
+
+![](Figures/mtDNA/Haplotypemap.png)
+
+
+
+
+
+
+
+
