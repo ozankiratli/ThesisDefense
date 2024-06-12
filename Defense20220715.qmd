@@ -2,7 +2,7 @@
 title: "The effects of migration on evolutionary dynamics in natural populations of *Drosophila melanogaster*"
 author: "Ozan Kiratli"
 subject: "Thesis Defense"
-date: "Advisor: Paul Schmidt"
+date: "07/15/2022"
 format: 
    revealjs: 
       theme: evo
@@ -1697,7 +1697,6 @@ To estimate potential migration events
 
 ###### Paul
 
-![](Figures/Acknowledgements/Paul.jpg)
 
 ------------------------------------------------------------------------
 
@@ -1742,11 +1741,6 @@ To estimate potential migration events
 
 :::
 
-::: {.column}
-![](Figures/Acknowledgements/lab1.jpg){.absolute bottom="0" right="0" width="400"}
-![](Figures/Acknowledgements/lab2.jpg){.fragment .absolute bottom="0" right="0" width="400"}
-![](Figures/Acknowledgements/lab3.jpg){.fragment .absolute bottom="0" right="0" width="400"}
-:::
 
 :::
 
@@ -1769,16 +1763,7 @@ To estimate potential migration events
 - Jordy Atencia
 :::
 
-::: {.column}
-![](Figures/Acknowledgements/undergrads.jpg){.absolute top="0" right="0" width="700"}
-![](Figures/Acknowledgements/yon.jpg){.absolute bottom="0" left="300" width="600"}
 
-:::
-
-
-:::
-
-:::
 
 
 ----
@@ -1840,104 +1825,14 @@ To estimate potential migration events
 
 ------------------------------------------------------------------------
 
-###### Cohort and Grad Students
-
-::: {.nonincremental}
-![](Figures/Acknowledgements/bio2012.JPG){.absolute top="75" left="0" width="300"}
-![](Figures/Acknowledgements/bio2013.JPG){.absolute top="300" left="0" width="300"}
-![](Figures/Acknowledgements/bio2014.jpg){.absolute top="-25" left="800" width="300"}
-![](Figures/Acknowledgements/bio2015.JPG){.absolute top="75" left="350" width="400"}
-![](Figures/Acknowledgements/bio2016.JPG){.absolute top="400" left="300" width="300"}
-![](Figures/Acknowledgements/bio2017.jpg){.absolute top="400" left="600" width="300"}
-![](Figures/Acknowledgements/bio2018.jpg){.absolute top="500" left="00" width="300"}
-![](Figures/Acknowledgements/bio2019.jpg){.absolute top="400" left="900" width="300"}
-
-:::
-
-------------------------------------------------------------------------
-
-###### Friends
-
-::: {.nonincremental}
-::: columns
-::: {.column}
-- Mitchell
-- Davorka
-- MAli
-- Mustafa
-- Emre
-- Heather
-- Yesim
-- Gunes
-- Ozgun
-- Mitra
-:::
-
-:::{.column}
-![](Figures/Acknowledgements/davorka.jpg){.absolute top="0" right="0" width="300"}
-![](Figures/Acknowledgements/Mitchell1.jpg){.absolute top="0" right="600" width="300"}
-![](Figures/Acknowledgements/MAli.jpg){.absolute top="100" right="300" width="300"}
-![](Figures/Acknowledgements/Mitchell_Davorka.jpg){.absolute top="0" right="300" width="300"}
-![](Figures/Acknowledgements/davorka3.jpg){.absolute top="200" right="00" width="300"}
-
-:::
-
-:::
-:::
 
 
-------------------------------------------------------------------------
-
-###### Sierra and Cats
-
-![](Figures/Acknowledgements/sierra4.jpg){.absolute top="75" left="0" width="300"}
-![](Figures/Acknowledgements/sierra2.jpg){.absolute top="75" left="300" width="300"}
-![](Figures/Acknowledgements/ozanandlainey.jpg){.absolute top="75" left="600" width="300"}
-![](Figures/Acknowledgements/erwin3.jpg){.absolute top="75" left="900" width="300"}
-![](Figures/Acknowledgements/sierra5.jpg){.absolute top="275" left="0" width="300"}
-![](Figures/Acknowledgements/wedding.jpg){.absolute top="275" left="300" width="300"}
-![](Figures/Acknowledgements/erwin2.jpg){.absolute top="500" left="0" width="300"}
-![](Figures/Acknowledgements/sierra9.jpg){.absolute top="475" left="300" width="300"}
-
-
-------------------------------------------------------------------------
-
-###### Family
-
-![](Figures/Acknowledgements/family1.jpg){.absolute top="75" left="0" width="400" height="275"}
-![](Figures/Acknowledgements/family2.jpg){.absolute top="75" left="400" width="400" height="600"}
-![](Figures/Acknowledgements/family5.jpg){.absolute top="75" left="800" width="400" height="500"}
-
-
-------------------------------------------------------------------------
-
-![](Figures/Acknowledgements/inlaws2.JPG){.absolute top="0" left="0" width="600" height="475"}
-![](Figures/Acknowledgements/savanna.jpg){.absolute top="0" right="00" width="600" height="475"}
-![](Figures/Acknowledgements/inlaws.JPG){.absolute top=400 left="400" width="500" height="375"}
 
 # Thank you!
 
 
 --------
 
-## Extra slides - Exp vs Natural
-
-![](Figures/Migration/Figure-S1-MDS-Mixed.png)
-
-
-----
-
-
-## Extra slides - Allele freq
-
-![](Figures/mtDNA/MajorAlleleFreqs_by_Location.png)
-
-
----
-
-## Extra slides - Haplotype map
-
-![](Figures/mtDNA/Haplotypemap.png)
 
 
 
