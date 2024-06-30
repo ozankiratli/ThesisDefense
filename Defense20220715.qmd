@@ -27,6 +27,7 @@ history: false
 scrollable: true
 navigation-mode: linear
 hide-inactive-cursor: true
+controls: true
 max-scale: 2
 min-scale: 0.1
 plugins: [markdown, highlight, notes, search, zoom]
