@@ -10,7 +10,7 @@ format:
       transition: fade
       
 width: 1280
-height: 720
+
 #editor: visual
 incremental: true
 #auto-animate: true
