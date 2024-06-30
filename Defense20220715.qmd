@@ -30,7 +30,7 @@ hide-inactive-cursor: true
 controls: true
 max-scale: 2
 min-scale: 0.1
-plugins: [markdown, highlight, notes, search, zoom]
+plugins: [markdown, highlight, notes, search, zoom, over]
 ---
 
 ```{=html}
@@ -1764,7 +1764,8 @@ To estimate potential migration events
 - Jordy Atencia
 :::
 
-
+:::
+:::
 
 
 ----
