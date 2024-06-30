@@ -10,6 +10,7 @@ format:
       transition: fade
       
 width: 1280
+height: 720
 #editor: visual
 incremental: true
 #auto-animate: true
@@ -28,7 +29,7 @@ navigation-mode: linear
 hide-inactive-cursor: true
 max-scale: 2
 min-scale: 0.1
-plugins: [markdown, highlight, notes, search, zoom, overflow-auto]
+plugins: [markdown, highlight, notes, search, zoom]
 ---
 
 ```{=html}
@@ -44,13 +45,11 @@ plugins: [markdown, highlight, notes, search, zoom, overflow-auto]
 
 ## Evolution 101
 
-::: r-fit-text
 -   Evolutionary Forces
     -   Selection, Drift, Mutations, Gene Flow
 -   Basis for Adaptation
 -   Rapid Adaptation 
 -   Epistasis
-:::
 
 ------------------------------------------------------------------------
 
